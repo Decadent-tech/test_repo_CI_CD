@@ -13,7 +13,7 @@ def test_hello_ping(client):
 
 def test_pinger(client):
     resp= client.get('/ping')
-    assert resp.data == b'<p>Hello i am under ocean i am pisces !</p>'
+    assert resp.data == b'<p>Hello i am under water!</p>'
 
 def test_prediction (client): 
     test_data = {
