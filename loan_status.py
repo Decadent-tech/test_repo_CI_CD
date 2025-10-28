@@ -10,7 +10,7 @@ def hello_world():
 
 @app.route("/ping", methods=['GET'])
 def pinger():
-    return "<p>Hello i am under water!</p>"
+    return "<p>Hello i am under water!!</p>"
 
 @app.route("/json", methods=['GET'])
 def json_check():
